@@ -15,6 +15,7 @@ $fb = new Facebook\Facebook([
 $accessToken = ''; 
 
 if(!isset($_SESSION['facebook_access_token'])){
+	$helper = $fb->getCanvasHelper();
 	try {
 		$accessToken = $helper->getAccessToken();
 	} catch(Facebook\Exceptions\FacebookResponseException $e) {
