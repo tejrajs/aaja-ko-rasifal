@@ -6,8 +6,8 @@ define( 'APP_FB_URL', 'https://apps.facebook.com/aaja-ko-rasifal/' ); //display 
 require(__DIR__ . '/vendor/autoload.php');
 
 $fb = new Facebook\Facebook([
-		'app_id' => '192495190824190',
-		'app_secret' => '07b067bb8867e10bc11636fa4bb6f49d',
+		'app_id' => '966540880088963',
+		'app_secret' => 'd797fd116b4f87f05c6b6d26798083b3',
 		'default_graph_version' => 'v2.5',
 		//'default_access_token' => '{access-token}', // optional
 ]);
