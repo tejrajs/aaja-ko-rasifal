@@ -1,7 +1,7 @@
 <?php
 
-define( 'APP_WEB_URL', 'https://tejtestapp.herokuapp.com/'); //display db errors?
-define( 'APP_FB_URL', 'https://apps.facebook.com/tejtest/' ); //display db errors?
+define( 'APP_WEB_URL', 'https://aaja-ko-rasifal.herokuapp.com/'); //display db errors?
+define( 'APP_FB_URL', 'https://apps.facebook.com/aaja-ko-rasifal/' ); //display db errors?
 
 require(__DIR__ . '/vendor/autoload.php');
 
