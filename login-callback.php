@@ -1,6 +1,5 @@
 <?php
 require(__DIR__ . '/config.php');
-require(__DIR__ . '/check.php');
 
 $helper = $fb->getRedirectLoginHelper();
 try {
