@@ -1,4 +1,6 @@
 <?php
+ob_start();
+session_start();
 
 define( 'APP_WEB_URL', 'https://aaja-ko-rasifal.herokuapp.com/'); //display db errors?
 define( 'APP_FB_URL', 'https://apps.facebook.com/aaja-ko-rasifal/' ); //display db errors?
